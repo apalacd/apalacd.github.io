@@ -2,17 +2,10 @@
 select body and use property background-color. */
 body {
 
-    background-color: #530c4a; 
-    color: #c2f7d3;
+    background-color: #183b57; 
+    color: #e7e3e9;
 }
 
-a {
-    color:#f5ac84;
-}
-h2 {
-    color: #a0f5c1;
-
-}
 
 #container {
     width: 1200px;
@@ -23,7 +16,7 @@ h2 {
 }
 
 #header {
-    background-color:#8b0885 
+    background-color:#d4d5d6 
 
 }
 
@@ -33,16 +26,24 @@ h2 {
     padding-top: 40px;
     padding-bottom: 7px;
 /*   color: #2A403F;*/
-    color:#edf2f7;
+    color:#4c275a;
 
 }
 
+h2 {
+    color: #604963;
+
+}
+
+#first-section {
+    color:rgb(212, 226, 245)
+}
 
 #header ul {
  /*  border-color: white;*/
-    border-style: dashed;
+    border-style: none;
     border-width: 1px;  
-    color: white;
+    /*color: white;*/
     text-align: center;
     padding-left:0;
     margin-bottom: 0;
@@ -52,9 +53,8 @@ h2 {
 }
 
 #header ul li {
-    background-color: #e1c7eb;
+    background-color: #178eac; 
     border-style: solid;
-    border-style: inline-block;
     border-width: 1px;
     /*display: inline;  /*will line up the list elements in the unordered list(ul) one next to the other */
     display: inline-block;  /* lines up list elements as blocks */
@@ -66,16 +66,16 @@ h2 {
     line-height: 50px;
     padding-right: 5px;
     padding-left: 5px;
-    border-radius: 2px;
+    /*border-radius: 2px;*/
 }
 
 #header ul li a:link{
-    color: white;
+    color: rgb(248, 248, 246);
     text-decoration: none;
 }
 
 #header ul li a:visited {
-    color: rgb(6, 86, 136);
+    color: rgb(8, 116, 66);
 }
 
 #header ul li a:hover {
@@ -83,31 +83,13 @@ h2 {
 }
 
 #header ul li a:active {
-    color: pink;
+    color: rgb(122, 97, 235);
     margin-left: 5px;
     margin-top: 5px;
 }
 
-   
-#footer {
-    height: 30px; 
-}
-
-#footer h3 {
-    text-align: left;
-    margin-left: 40px;
-}
-
-#footer ul li {
-    text-align: left;
-}
-
-#footer ul p {
-    text-align: left;
-}
-
-
 #main {
+    overflow: auto;
 }
 
 #first-section {
@@ -115,12 +97,15 @@ h2 {
     padding-top: 12px;
 }
 
+
+
 #main p {
-    text-align: left;
+    /*text-align: left;*/
+    text-align: justify;
     margin-right: 30px;
     margin-left: 40px;
     line-height: 22px;
-    color: #80bff3;
+    color: #d7dbdf;
 } 
 
 #main ul li {
@@ -130,18 +115,74 @@ h2 {
     line-height: 22px;
 }
 
+
 #main img {
     text-align: right;
     border-style: solid;
-    border-width: 2px;
-    border-color: #798C8C;
+    border-width: 4px;
+    /*border-color: #798C8C;*/
+    border-color: rgb(139, 193, 238);
     border-radius: 5px;
+    display: inline-block;
+}
+
+#linkedin {
+    background-color: white;
+    border-color: rgb(114, 200, 235);
 }
 
 #main img:hover{
-    border-color: pink;
+    border-color: rgb(187, 173, 175);
 }
 
 #main h3 {
-    text-align: auto;
+    text-align: center;
 }
+
+#skills-section {
+    color:rgb(255, 235, 255);
+
+}
+
+#skills-section h3{
+    color:rgb(215, 191, 245);
+}
+
+#skills-section p{
+    color:rgb(255, 235, 255);
+    text-align: center;
+}
+
+#contact-text {
+    text-align: center;
+    margin-left: 40px;
+}
+
+   
+#footer {
+    height: 30px; 
+}
+
+#footer h3 {
+    color:rgb(240, 155, 235);
+    text-align: center;
+    margin-left: 7px;
+}
+
+#footer ul li {
+    text-align: left;
+    color:rgb(255, 235, 255);
+}
+
+#footer ul p {
+    text-align: left;
+
+}
+
+#copyright-text {
+    color: rgb(241, 236, 155);
+}
+a {
+    color:#ee8a50;
+}
+
