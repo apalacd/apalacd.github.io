@@ -75,7 +75,7 @@ h2 {
 }
 
 #header ul li a:visited {
-    color: rgb(172, 212, 235);
+    color: rgb(220, 234, 245);
 }
 
 #header ul li a:hover {
@@ -83,7 +83,7 @@ h2 {
 }
 
 #header ul li a:active {
-    color: rgb(122, 97, 235);
+    color: rgb(219, 240, 99);
     margin-left: 5px;
     margin-top: 5px;
 }
